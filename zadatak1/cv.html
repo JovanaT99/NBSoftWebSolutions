@@ -1,0 +1,199 @@
+<!-- Napraviti HTML stranicu primera izgleda vašeg CV-a koji ste nam poslali koristeći Bootstrap biblioteku za grid.
+     Stranica mora biti responsive -->
+<!-- ! + tab for shortcut html structure VS Code -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jovana Blagojevic</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="container p-5">
+      <div class="row">
+        <!--set padding padding-top  and padding bottom-->
+        <div class="col-lg bg-dark text-white text-center py-4"></div>
+
+        <div class="header-right">
+          <!--mb - marginbottom-->
+          <img
+            src="jovana.jpg"
+            alt="img-cv"
+            class="rounded mb-2"
+            width="100"
+            height="100"
+          />
+          <h1 class="display-5">Jovana Blagojevic</h1>
+          <h4 class="lead text-primary font-weight-bold mb-4">
+            Softwer Developer
+          </h4>
+        </div>
+        <div>
+          <h5 class="text-uppercase text-dark py-2 text-left">SKILLS</h5>
+          <hr class="hr text-dark" />
+          <ul class="list-inline d-flex flex-wrap">
+            <li class="list-inline-item">JavaScript</li>
+            <li class="list-inline-item">&bull; HTML/CSS</li>
+            <li class="list-inline-item">&bull; GitHub</li>
+            <li class="list-inline-item">&bull; NodeJs</li>
+            <li class="list-inline-item">NPM</li>
+            <li class="list-inline-item">Maven</li>
+            <li class="list-inline-item">&bull; Java</li>
+            <li class="list-inline-item">&bull; SpringBoot</li>
+
+            <li class="list-inline-item">Spring Data</li>
+            <li class="list-inline-item">&bull; Spring API</li>
+            <li class="list-inline-item">&bull; TestRail</li>
+            <li class="list-inline-item">WebDriverIO</li>
+            <li class="list-inline-item">&bull;Heroku</li>
+            <li class="list-inline-item">&bull;Docker</li>
+            <li class="list-inline-item">&bull; H2</li>
+            <li class="list-inline-item">Bootstrap</li>
+            <li class="list-inline-item">&bull;ClickUp</li>
+            <li class="list-inline-item">&bull;Jira</li>
+            <li class="list-inline-item">&bull; Slack</li>
+          </ul>
+
+          <h5 class="text-uppercase text-dark py-2 text-left">STRENGTHS</h5>
+          <hr class="hr text-dark" />
+          <ol class="list-inline d-flex flex-wrap">
+            <li class="list-inline-item">Strong work ethic</li>
+            <li class="list-inline-item">detail-oriented,</li>
+            <li class="list-inline-item">energetic,</li>
+            <li class="list-inline-item">open-minded</li>
+            <li class="list-inline-item">goal-orienred and adaptable</li>
+          </ol>
+
+          <h5 class="text-uppercase text-dark py-2 text-left">LANGUAGES</h5>
+          <hr class="hr text-dark" />
+
+          <!-- <ul class="list-listed text-white ml-5 py-2 text-left">
+            <li class="text-dark">list-item</li>
+
+            <i class="list-item text-dark">
+                <i class="fas fa-phone"></i>
+              <i class="fa-sharp fa-light fa-location-dot"></i>
+          </ul> -->
+        </div>
+
+        <!--set padding padding-left  and padding right-->
+
+        <div class="col-lg-8 bg-light text-dark py-4 px-5"></div>
+        <div class="'header-left"></div>
+        <h4 class="text-uppercase">Summary</h4>
+        <hr class="hr text-dark" />
+        <p>
+          I'm a quick learner with a strong work ethic. I excel in collaborative
+          environments and have a passion for Web Development. I have been
+          working in the IT industry for some time and in different capacities,
+          so I have a diverse skill set and knowledge of every aspect of product
+          development. The path toward my goal wasn't that straightforward, but
+          now I'm eager to join a team of experienced developers where I can
+          learn and grow as a frontend and backend programmer while contributing
+          to the team with my diverse experience.
+        </p>
+      </div>
+
+      <h4 class="text-uppercase">Experience</h4>
+      <hr class="hr text-dark" />
+      <div class="table-responsive-md">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td h5 class="lead text-dark font-weight-bold pl-0">
+                QA Engineer
+              </td>
+              <td>12/2022 - Present</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td h5 class="lead text-primary font-weight-bold">
+                Solrise Finance
+              </td>
+              <td>Novi Sad</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          A Web3 crypto company that built most used wallets and other products
+          on fast blockchains such as Solana, Aptos and SUI. It has milions of
+          users and tens of billions in user funds that are managed using
+          companies products. Security and safety are hugly important to the
+          products and thus QA was of critical importance.
+        </p>
+
+        <ul class="list-unstyled">
+          <li class="list-group-item">
+            &bull; Testing and overseeing web, chrome extension and mobile
+            releases.
+          </li>
+          <li class="list-group-item">
+            &bull; Writing and maintaining automated tests (javascript, nodejs,
+            webdriverio, github).
+          </li>
+          <li class="list-group-item">
+            &bull;Writing test cases for web, extension, ios and android
+            projects (testrail).
+          </li>
+          <li class="list-group-item">
+            &bull;Collaboration across multiple mobile and web teams, daily
+            meetings and syncs.
+          </li>
+        </ul>
+
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <th scope="row"></th>
+              <td h5 class="lead text-dark font-weight-bold pl-0">
+                Java Developer
+              </td>
+              <td>07/2022 - 09/2022</td>
+            </tr>
+            <tr>
+              <th scope="row"></th>
+              <td h5 class="lead text-primary font-weight-bold">ITBootcamp</td>
+              <td>Belgrade</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Attendees follow 13-week programming courses, 4 hours 4 days a week,
+          where they learn and build a good foundation through working on
+          real-world example projects.
+        </p>
+
+        <ul class="list-unstyled">
+          <li class="list-group-item">
+            &bull; Finished a 13-week Java SpringBoot course which included: .
+          </li>
+          <li class="list-group-item">
+            &bull; Basics of programming logic, algorithms, data structures and
+            OOP.
+          </li>
+          <li class="list-group-item">
+            &bull;Working with Databases (PostgreSQL, H2) and 3rd-party APIs.
+          </li>
+          <li class="list-group-item">
+            &bull; Application development through a project example.
+          </li>
+
+          <li class="list-group-item">
+            &bull; After completing the course I built a few simple apps and
+            hosted them on Heroku.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
