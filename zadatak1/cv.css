@@ -1,0 +1,31 @@
+body {
+  font-size: 14px;
+}
+
+.display-5 {
+  font-family: "Meltow Sans", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.lead {
+  font-family: "Roboto", sans-serif;
+}
+
+.icon-light {
+  color: #cccccc;
+}
+
+.text-with-icon {
+  margin-left: 5px; /*  razmak između teksta i ikonice */
+}
+
+ul.list-unstyled {
+  margin-bottom: 40px; /* Postavite željeni razmak između <ul> i <h4> */
+}
+p {
+  margin: 0;
+}
