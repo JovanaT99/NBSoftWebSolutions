@@ -1,5 +1,5 @@
-const country = "RS"; // Šifra za Srbiju
-const username = "jovana"; // Vaš korisnički username na Geonames API
+const country = "RS";
+const username = "jovana";
 
 const url = `http://api.geonames.org/searchJSON?country=${country}&maxRows=20&username=${username}`;
 
